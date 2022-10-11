@@ -1,6 +1,6 @@
 <pre><font color="#26A269"><b>srit@srit-HP-Pro-3090-MT</b></font>:<font color="#12488B"><b>~/204g1a0510/CN-AND-OS-LAB/OSLAB/Exp-1</b></font>$ gcc FCFS.c
 <font color="#26A269"><b>srit@srit-HP-Pro-3090-MT</b></font>:<font color="#12488B"><b>~/204g1a0510/CN-AND-OS-LAB/OSLAB/Exp-1</b></font>$ ./a.out
-
+// FCFS output1
 Enter the number of processes -- 3
 
 Enter Burst Time for Process 0 -- 2
@@ -15,3 +15,64 @@ Enter Burst Time for Process 2 -- 4
 	 P2 		 4 		 5 		 9
 Average Waiting Time -- 2.333333
 Average Turnaround Time -- 5.333333<font color="#26A269"><b>s</b></font></pre>
+
+//FCFS output2
+Enter the number of processes -- 2 
+
+Enter Burst Time for Process 0 -- 1  
+
+Enter Burst Time for Process 1 -- 2
+         PROCESS        BURST TIME       WAITING TIME    TURNAROUND TIME
+
+         P0              1               0               1
+         P1              2               1               3
+Average Waiting Time -- 0.500000
+Average Turnaround Time -- 2.000000
+
+//FCFS output3
+Enter the number of processes -- 4
+
+Enter Burst Time for Process 0 -- 11
+
+Enter Burst Time for Process 1 -- 12
+
+Enter Burst Time for Process 2 -- 1
+
+Enter Burst Time for Process 3 -- 13
+         PROCESS        BURST TIME       WAITING TIME    TURNAROUND TIME
+
+         P0              11              0               11
+         P1              12              11              23
+         P2              1               23              24
+         P3              13              24              37
+Average Waiting Time -- 14.500000
+Average Turnaround Time -- 23.750000
+
+//FCFS output4
+Enter the number of processes -- 2
+
+Enter Burst Time for Process 0 -- 1
+
+Enter Burst Time for Process 1 -- 12
+         PROCESS        BURST TIME       WAITING TIME    TURNAROUND TIME
+
+         P0              1               0               1
+         P1              12              1               13
+Average Waiting Time -- 0.500000
+Average Turnaround Time -- 7.000000
+
+//FCFS output5
+Enter the number of processes -- 3
+
+Enter Burst Time for Process 0 -- 11
+
+Enter Burst Time for Process 1 -- 12
+
+Enter Burst Time for Process 2 -- 13
+         PROCESS        BURST TIME       WAITING TIME    TURNAROUND TIME
+
+         P0              11              0               11
+         P1              12              11              23
+         P2              13              23              36
+Average Waiting Time -- 11.333333
+Average Turnaround Time -- 23.333333
