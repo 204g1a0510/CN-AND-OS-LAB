@@ -1,23 +1,25 @@
 //output 1
 
-Enter the total memory available (in Bytes) -- 1000
-Enter the block size (in Bytes) -- 300
+Enter the total memory available (in Bytes)-- 1000
 
-Enter the number of processes -- 5
-Enter memory required for process 1 (in Bytes)-- 275
-Enter memory required for process 2 (in Bytes)-- 400
-Enter memory required for process 3 (in Bytes)-- 290
-Enter memory required for process 4 (in Bytes)-- 293
-Enter memory required for process 5 (in Bytes)-- 100
+Enter memory required for process 1 (in Bytes) -- 400
 
-No. of Blocks available in memory--3
+Memory is allocated for Process 1
+Do you want to continue(y/n) -- y
 
-PROCESS MEMORYREQUIRED  ALLOCATED       INTERNAL FRAGMENTATION
- 1              275             YES     25
- 2              400             NO              ---
- 3              290             YES     10
- 4              293             YES     7
-Memory is Full, Remaining Processes cannot be accomodated
+Enter memory required for process 2 (in Bytes) -- 275
 
-Total Internal Fragmentation is 42
-Total External Fragmentation is 100
+Memory is allocated for Process 2
+Do you want to continue(y/n) -- y
+
+Enter memory required for process 3 (in Bytes) -- 550
+Memory is Full
+
+Total Memory Available -- 1000
+
+        PROCESS          MEMORY ALLOCATED
+        1               400
+        2               275
+
+Total Memory Allocated is 675
+Total External Fragmentation is 325
