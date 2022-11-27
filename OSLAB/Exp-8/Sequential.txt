@@ -1,0 +1,15 @@
+//output 1
+
+ Enter the starting block & length of file4 10
+
+4->1
+5->1
+6->1
+7->1
+8->1
+9->1
+10->1
+11->1
+12->1
+13->1
+ the file is allocated to disk
